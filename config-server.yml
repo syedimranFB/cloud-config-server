@@ -15,8 +15,8 @@ spec:
         app: cloud-config-server-app
     spec:
       containers:
-        - name: cloud-config
-          image: syedimran18/cloud-config:latest
+        - name: cloud-config-server
+          image: syedimran18/cloud-config-server:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 9296
