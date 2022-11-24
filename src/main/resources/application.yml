@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Raja1126/microservices-demo.git
+          uri: https://github.com/syedimranFB/cloud-config-server.git
           clone-on-start: true
 
 
