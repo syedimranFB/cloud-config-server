@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: cloud-config-server
-          image: syedimran18/cloud-config-server:latest
+          image: microservices1.azurecr.io/cloud-config-server:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 9296
